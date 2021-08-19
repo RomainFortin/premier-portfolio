@@ -1,0 +1,253 @@
+/*IPHONE 4*/
+@media (max-width: 320px){
+    .embed{
+        right: 10px;    
+        transform: translateY(-10px);
+    }
+    h1{
+        text-align: left;
+        font-size: 15px !important;
+        margin-left: 20px;
+    }
+    h1 span{
+        font-size: 12px !important;
+    }
+    .right-nav{
+        display: none;
+    }
+    .burger{
+        top: 25px;
+    }
+    #about {
+        height: 940px;
+    }
+    .mon-cv{
+        height: 820px;
+    }
+    .about-text{
+        width: 80%;
+    }
+    .mon-cv-link{
+        -ms-flex-item-align: center;
+        align-self: center;
+    }
+    .comp{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -ms-flex-pack: distribute;
+        justify-content: space-around;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        height: 80%;
+    }
+    .front, .adobe, .anglais, .francais{
+        padding-top: 0;
+    }
+    .wd, .in{
+        width: 110px;
+        height: 110px;
+        margin: 5px;
+    }
+    .cont-in{
+        width: 100%;
+        height: 250px;
+        margin-top: 0;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    footer p{
+        width: 300px;
+    }
+}
+/*SMARTPHONE PORTRAIT*/
+@media (min-width: 321px) and (max-width: 767px){
+    .embed{
+        right: 10px;    
+        transform: translateY(-10px);
+    }
+    h1{
+        text-align: left;
+        font-size: 16px !important;
+        margin-left: 20px;
+    }
+    h1 span{
+        font-size: 14px !important;
+    }
+    .right-nav{
+        display: none;
+    }
+    .burger{
+        top: 25px;
+    }
+    #about {
+        height: 840px;
+    }
+    .mon-cv{
+        height: 720px;
+    }
+    .about-text{
+        width: 80%;
+    }
+    .mon-cv-link{
+        -ms-flex-item-align: center;
+        align-self: center;
+    }
+    .comp{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -ms-flex-pack: distribute;
+        justify-content: space-around;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        height: 80%;
+    }
+    .front, .adobe, .anglais, .francais{
+        padding-top: 0;
+    }
+    .wd, .in{
+        width: 110px;
+        height: 110px;
+    }
+    .cont-in{
+        width: 100%;
+        height: 250px;
+        margin-top: 0;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    footer p{
+        width: 300px;
+    }
+}
+/*SMARTPHONE LANDSCAPE*/
+@media (min-width: 321px) and (max-width: 767px) and (orientation: landscape){
+    #about {
+        height: 100%;
+    }
+    .comp{
+        width: 85%;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -ms-flex-pack: distribute;
+        justify-content: space-around;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+    .wd, .in{
+        width: 120px;
+        height: 120px;
+    }
+    .mon-cv{
+        height: 540px;
+    }
+    .cont-in{
+        width: 65%;
+        height: 100%;
+        margin-top: 0;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+}
+/*TABLETTE ET LAPTOP*/
+@media (min-width: 767px) and (max-width: 1199px){
+    .embed{
+        right: 15px;    
+        transform: translateY(-15px);
+    }
+    h1{
+        margin-left: 30px;
+        font-size: 18px !important;
+    }
+    h1 span{
+        font-size: 14px !important;
+    }
+    .right-nav{
+        display: none;
+    }
+    .burger{
+        top: 25px;
+    }
+    .right-nav {
+        right: 30px;
+    }
+    #about {
+        height: 540px;
+    }
+    .mon-cv{
+        height: 420px;
+    }
+    .comp{
+        width: 80%;
+    }
+    .about-text{
+        width: 80%;
+    }
+    .about-text p{
+        text-align: left;
+        font-family: lato;
+        font-size: 15px;
+        color: #404040;
+        line-height: 25px;
+    }
+    .port-cont{
+        width: 100%;
+    }
+    .wd, .in{
+        margin: 15px;
+        width: 150px;
+        height: 150px;
+    }
+    .cont-in{
+        width: 60%;
+    }
+}
+/*TABLETTE LANDSCAPE*/
+@media (min-width: 767px) and (max-width: 1199px) and (orientation: landscape){
+    #about {
+        height: 540px;
+    }
+    .mon-cv{
+        height: 420px;
+    }
+}
+/*CACHER LE MENU BURGER SUR DESKTOP*/
+@media (min-width: 1199px){
+    .burger{
+        display: none;
+    }
+}
